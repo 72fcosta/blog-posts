@@ -1,0 +1,115 @@
+{
+   "folders": [
+      {
+         "name": "blog-posts",
+         "path": ".",
+      },
+   ],
+   "settings": {
+      "window.title": "${dirty} ${activeFolderMedium}",
+      "workbench.iconTheme": "icons",
+      "workbench.colorCustomizations": {
+         "breadcrumb.background": "#191d14",
+      },
+      "workbench.list.smoothScrolling": true,
+      "workbench.productIconTheme": "Default",
+      "workbench.startupEditor": "none",
+      "js/ts.updateImportsOnFileMove.enabled": "never",
+      "js/ts.autoClosingTags.enabled": false,
+      "js/ts.suggest.autoImports": false,
+
+      // editor
+
+      "editor.acceptSuggestionOnCommitCharacter": false,
+      "editor.inlineSuggest.suppressSuggestions": true,
+      "editor.gotoLocation.multipleDefinitions": "goto",
+      "editor.cursorSmoothCaretAnimation": "on",
+      "editor.fontFamily": "MesloLGM Nerd Font",
+      "editor.fontLigatures": false,
+      "editor.fontSize": 13,
+      "editor.lineHeight": 1.8,
+      "editor.guides.bracketPairs": "active",
+      "editor.linkedEditing": true,
+      "editor.stickyScroll.maxLineCount": 4,
+      "editor.stickyScroll.scrollWithEditor": false,
+
+      "editor.cursorStyle": "line",
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+         "other": "on",
+         "comments": "off",
+         "strings": "on",
+      },
+
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+      // terminal
+
+      "terminal.integrated.lineHeight": 1.4,
+      "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+      "terminal.integrated.fontSize": 13,
+      "terminal.integrated.cursorStyle": "underline",
+
+      //  git
+
+      "git.confirmSync": false,
+      "git.openRepositoryInParentFolders": "always",
+
+      // emmet
+
+      "emmet.triggerExpansionOnTab": true,
+      "emmet.showSuggestionsAsSnippets": true,
+
+
+      // css navigation
+
+      "CSSNavigation.activeCSSFileExtensions": ["css"],
+      "CSSNavigation.activeHTMLFileExtensions": ["html", "vue"],
+      "git.ignoreLimitWarning": true,
+      "editor.lineNumbers": "on",
+      "html.autoClosingTags": false,
+      "files.autoSave": "afterDelay",
+      "files.autoSaveDelay": 10000,
+      "breadcrumbs.enabled": false,
+
+      "prettier.configPath": ".prettierrc.mjs",
+
+      // multi command
+
+      "multiCommand.commands": [
+         {
+            "command": "multiCommand.insertLineLog",
+            "sequence": [
+               {
+                  "command": "editor.action.insertSnippet",
+                  "args": {
+                     "snippet": "console.log(\"🚀\", $TM_LINE_NUMBER)",
+                  },
+               },
+            ],
+         },
+         {
+            "command": "multiCommand.gitCommit",
+            "sequence": [
+               "git.stageAll",
+               "commitMsg.autofill",
+               "git.commit",
+               "git.sync",
+            ],
+         },
+      ],
+
+      "chatgpt.commentCodeLensEnabled": true,
+      "chatgpt.openOnStartup": false,
+      "breadcrumbs.filePath": "off",
+
+
+
+      // vue
+
+      "vue.editor.reactivityVisualization": false,
+
+      "togglequotes.chars": ["\"", "'", "`"],      
+   },
+}
