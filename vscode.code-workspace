@@ -61,7 +61,6 @@
       "emmet.triggerExpansionOnTab": true,
       "emmet.showSuggestionsAsSnippets": true,
 
-
       // css navigation
 
       "CSSNavigation.activeCSSFileExtensions": ["css"],
@@ -104,12 +103,11 @@
       "chatgpt.openOnStartup": false,
       "breadcrumbs.filePath": "off",
 
-
-
       // vue
 
       "vue.editor.reactivityVisualization": false,
 
-      "togglequotes.chars": ["\"", "'", "`"],      
+      "togglequotes.chars": ["\"", "'", "`"],
+      "cSpell.words": ["Openclaw"],
    },
 }
