@@ -11,6 +11,7 @@
 
 - Posso simplificar?
 - E se eu fizer uma pausa?
+- Seria mais produtivo fazer outra task?
 - Está no modo go horse?
 
 ## After
