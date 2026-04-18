@@ -5,3 +5,4 @@
 ## Perguntas
 
 - Posso simplificar?
+- E se eu fizer uma pausa?
