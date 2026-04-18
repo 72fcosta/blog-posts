@@ -1,11 +1,11 @@
 [2026-04-17]
 
-# Aprendendo
+# Executando
 
-## Purify
+## Mind Purify
 
-- Mentalize primary focus
-- Mentalize current gap
+- Mentalize primary target
+- Mentalize gap targets
 
 ## Perguntas
 
