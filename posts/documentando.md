@@ -1,7 +1,6 @@
----
-title: Documentando
-date: 2026-04-18
----
+[2026-04-18]
+
+# Documentando
 
 ## Estágios
 
