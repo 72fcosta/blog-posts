@@ -1,8 +1,7 @@
 ---
+title: VPS OpenClaw
 date: 2026-04-15
 ---
-
-# VPS Openclaw
 
 ## Before Prepare VPS
 
