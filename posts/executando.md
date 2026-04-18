@@ -5,7 +5,7 @@
 ## Mind Purify
 
 - Mentalize primary target
-- Mentalize gap targets
+- Mentalize gap target
 
 ## Perguntas
 
