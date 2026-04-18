@@ -2,7 +2,7 @@
 
 # Aprendendo
 
-## Behavior
+## Purify
 
 - Mentalize primary focus
 - Mentalize current gap
