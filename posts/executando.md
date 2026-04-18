@@ -16,3 +16,4 @@
 ## Before
 
 - Por que eu executei a task?
+- Qual é a primary task?
