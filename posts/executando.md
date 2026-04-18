@@ -13,7 +13,8 @@
 - E se eu fizer uma pausa?
 - Está no modo go horse?
 
-## Before
+## After
 
 - Por que eu executei a task?
 - Qual é a primary task?
+- Reset no workspace (browser, editor, commit, etc)
