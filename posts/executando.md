@@ -4,11 +4,15 @@
 
 ## Mind Purify
 
-- Mentalize primary target
-- Mentalize gap target
+- Mentalize primary task
+- Mentalize gap task
 
 ## Perguntas
 
 - Posso simplificar?
 - E se eu fizer uma pausa?
 - Está no modo go horse?
+
+## Before
+
+- Por que eu executei a task?
