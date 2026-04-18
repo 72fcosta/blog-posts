@@ -10,6 +10,7 @@
 ## Perguntas
 
 - Qual meu grau de stress, foco, motivação e cognição?
+- Qual o nível de dificuldade da task?
 - Posso simplificar?
 - E se eu fizer uma pausa?
 - Seria mais produtivo fazer outra task?
