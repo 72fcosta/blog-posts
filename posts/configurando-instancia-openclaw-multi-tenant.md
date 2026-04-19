@@ -6,6 +6,19 @@
 
 ### Objetivo
 
+- Interações via Welcome page
+   - Programaticamente é gerado um novo place
+   - Dekbot Server envia para uma rota (POST https://openclaw.dekbot.site/setup/api/agent)
+      - É gerado um workspace e um agente
+
+- Interações via Schedly Dash ao consumer
+   - Consumer desliga o agente
+      - Dekbot Server envia o request ao OpenClaw por uma rota (POST https://openclaw.dekbot.site/setup/api/disable-agent)
+         - O core do OpenClaw deve ser capaz de bloquear todas as mensagens seguintes
+   - Consumer cria um customer contact
+      - Dekbot Server envia o objeto ao OpenClaw por uma rota (POST https://openclaw.dekbot.site/setup/api/customer)
+         - É assigned ao objeto ao file tenants.json que vive fora dos workspaces dos agentes
+
 - Atendimento via WhatsApp ao customer do consumer
    - Customer envia uma mensagem ao consumer
       - O core do OpenClaw deve ser capaz de bloquear a mensagem antes do agente
