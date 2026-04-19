@@ -45,6 +45,7 @@
 
 - su - openclaw <!-- use openclaw user -->
 - curl -fsSL https://openclaw.ai/install.sh | bash
-- openclaw gateway
+- oc gateway
 - ocs gateway.controlUi.allowInsecureAuth false
 - ocs gateway.controlUi.allowedOrigins '["https://openclaw.XXX"]' --strict-json
+- oc update
