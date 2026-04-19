@@ -30,9 +30,14 @@
 
 ### Required
 
+- A porta 18789?
 - Como configurar ControlUI use?
 - Como funciona o gateway?
 
 ### Steps
 
 - OpenClaw responde pelo ControlUI
+
+### Bash Aliases
+
+- openclaw gateway status: ogs
