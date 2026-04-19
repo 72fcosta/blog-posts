@@ -6,4 +6,6 @@
 
 ### Required
 
+- Como funciona o gateway do OpenClaw?
+
 ### Steps
