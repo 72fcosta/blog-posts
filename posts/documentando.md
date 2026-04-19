@@ -2,8 +2,10 @@
 
 # Documentando
 
-## Estágios
+Fluxo para documentar
 
-- Before Action
-- On Action
-- After Action
+## Required
+
+- O que estou documentando?
+
+## Steps
