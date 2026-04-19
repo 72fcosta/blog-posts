@@ -1,4 +1,4 @@
-[2026-04-18]
+[2026-04-17]
 
 # Preparando VPS para OpenClaw
 
