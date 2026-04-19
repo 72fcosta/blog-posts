@@ -1,6 +1,6 @@
 [2026-04-19]
 
-# Preparando VPS OpenClaw para OpenClaw
+# Preparando VPS OpenClaw
 
 ## Required
 
