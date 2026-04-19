@@ -45,5 +45,6 @@ openclaw models auth login --provider openai
 
 ### Bash Aliases
 
+- openclaw: oc
 - openclaw gateway status: ogs
 - openclaw gateway restart: ogr
