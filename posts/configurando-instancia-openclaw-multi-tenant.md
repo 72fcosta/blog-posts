@@ -34,6 +34,8 @@
 - Como configurar ControlUI use?
 - Como funciona o gateway?
 
+openclaw models auth login --provider openai
+
 ### Steps
 
 - su - openclaw <!-- use openclaw user -->
@@ -44,3 +46,4 @@
 ### Bash Aliases
 
 - openclaw gateway status: ogs
+- openclaw gateway restart: ogr
