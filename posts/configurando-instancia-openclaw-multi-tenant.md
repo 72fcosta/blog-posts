@@ -30,7 +30,8 @@
 
 ### Required
 
-- Como funciona o gateway do OpenClaw?
+- Como configurar ControlUI use?
+- Como funciona o gateway?
 
 ### Steps
 
