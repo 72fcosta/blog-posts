@@ -2,7 +2,7 @@
 
 # Documentando
 
-## Fluxo para documentar
+## Descreve o fluxo para documentar
 
 #### Required
 
