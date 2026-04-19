@@ -33,3 +33,5 @@
 - Como funciona o gateway do OpenClaw?
 
 ### Steps
+
+- OpenClaw responde pelo ControlUI
