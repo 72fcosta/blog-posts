@@ -1,6 +1,6 @@
 [2026-04-19]
 
-# Configurando uma instância do OpenClaw multi-tenant
+# OpenClaw multi-tenant
 
 ## Configurando uma instância do OpenClaw multi-tenant
 
