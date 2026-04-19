@@ -36,10 +36,10 @@
 
 ### Bash Aliases
 
-- openclaw: oc
-- openclaw gateway status: ogs
-- openclaw gateway restart: ogr
-- openclaw config set: ocs
+- oc: openclaw
+- ogs: openclaw gateway status
+- ogr: openclaw gateway restart
+- ocs: openclaw config set
 
 ### Steps
 
