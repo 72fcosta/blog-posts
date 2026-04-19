@@ -50,7 +50,7 @@
 - ocs gateway.controlUi.allowInsecureAuth false
 - ocs gateway.controlUi.allowedOrigins '["https://openclaw.XXX"]' --strict-json
 - ocs gateway.trustedProxies '["127.0.0.1"]' --strict-json
-- definir openclaw.json
+- ocs hooks '{"token":"${OPENCLAW_HOOKS_TOKEN}"}' --strict-json
 
 - Raw mode disabled
 
