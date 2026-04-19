@@ -49,3 +49,4 @@ openclaw models auth login --provider openai
 - openclaw: oc
 - openclaw gateway status: ogs
 - openclaw gateway restart: ogr
+- openclaw config set: ocs
