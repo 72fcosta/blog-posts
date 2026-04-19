@@ -36,6 +36,9 @@
 
 ### Steps
 
+- su - openclaw <!-- use openclaw user -->
+
+- Definir configs em ~/.openclaw/openclaw.json
 - OpenClaw responde pelo ControlUI
 
 ### Bash Aliases
