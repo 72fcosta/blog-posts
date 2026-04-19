@@ -2,6 +2,6 @@
 
 # Instalando OpenClaw em uma VPS
 
-## Required
+### Required
 
-## Steps
+### Steps

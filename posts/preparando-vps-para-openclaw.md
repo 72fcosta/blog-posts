@@ -2,11 +2,11 @@
 
 # Preparando VPS para OpenClaw
 
-## Required
+### Required
 
 - Ubuntu LTS Latest
 
-## Steps
+### Steps
 
 - apt update
 - apt upgrade -y

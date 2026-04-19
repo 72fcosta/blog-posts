@@ -2,6 +2,6 @@
 
 # Instalando Caddy
 
-## Required
+### Required
 
-## Steps
+### Steps
