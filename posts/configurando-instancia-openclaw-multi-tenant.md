@@ -47,6 +47,7 @@
 - curl -fsSL https://openclaw.ai/install.sh | bash
 - openclaw gateway
 - ocs gateway.controlUi.allowInsecureAuth false
+- ocs gateway.controlUi.allowedOrigins '["https://openclaw.XXX"]' --strict-json
 
 - Definir configs em ~/.openclaw/openclaw.json
 - OpenClaw responde pelo ControlUI
