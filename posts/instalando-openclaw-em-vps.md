@@ -1,10 +1,6 @@
 [2026-04-15]
 
-# VPS OpenClaw
-
-## Before Prepare VPS
-
-## On Prepare VPS
+# Instalando OpenClaw em VPS
 
 ## Before Prepare OpenClaw
 
