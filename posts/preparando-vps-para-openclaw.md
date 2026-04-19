@@ -2,6 +2,6 @@
 
 # Preparando VPS OpenClaw para OpenClaw
 
-## Before
+## Required
 
 ## Steps
