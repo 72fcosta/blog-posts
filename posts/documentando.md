@@ -6,6 +6,7 @@
 
 #### Required
 
-- O que estou documentando?
+- Qual o foco objeto da documentação?
+- O que eu não sei sobre o objeto?
 
 #### Steps
