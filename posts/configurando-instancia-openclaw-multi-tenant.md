@@ -40,6 +40,7 @@ openclaw models auth login --provider openai
 
 - su - openclaw <!-- use openclaw user -->
 - curl -fsSL https://openclaw.ai/install.sh | bash
+- openclaw gateway
 - Definir configs em ~/.openclaw/openclaw.json
 - OpenClaw responde pelo ControlUI
 
