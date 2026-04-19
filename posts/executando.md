@@ -2,6 +2,13 @@
 
 # Executando
 
+### Required
+
+- Pomodoro
+   - 90/30
+   - 60/15
+   - 25/5
+
 ## Mind Purify
 
 - Mentalize primary task
