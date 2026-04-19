@@ -53,5 +53,4 @@
 - ocs hooks '{"token":"${OPENCLAW_HOOKS_TOKEN}"}' --strict-json
 
 - Raw mode disabled
-
 - git backup
