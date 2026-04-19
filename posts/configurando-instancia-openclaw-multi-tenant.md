@@ -34,19 +34,19 @@
 - Como configurar ControlUI use?
 - Como funciona o gateway?
 
-openclaw models auth login --provider openai
-
-### Steps
-
-- su - openclaw <!-- use openclaw user -->
-- curl -fsSL https://openclaw.ai/install.sh | bash
-- openclaw gateway
-- Definir configs em ~/.openclaw/openclaw.json
-- OpenClaw responde pelo ControlUI
-
 ### Bash Aliases
 
 - openclaw: oc
 - openclaw gateway status: ogs
 - openclaw gateway restart: ogr
 - openclaw config set: ocs
+
+### Steps
+
+- su - openclaw <!-- use openclaw user -->
+- curl -fsSL https://openclaw.ai/install.sh | bash
+- openclaw gateway
+- ocs gateway.controlUi.allowInsecureAuth false
+
+- Definir configs em ~/.openclaw/openclaw.json
+- OpenClaw responde pelo ControlUI
