@@ -37,7 +37,7 @@
 ### Steps
 
 - su - openclaw <!-- use openclaw user -->
-- curl -fsSL https://openclaw.ai/install.sh | bash
+- curl -fsSL https://openclaw.ai/install.sh | bash -s -- --no-onboard
 - Definir configs em ~/.openclaw/openclaw.json
 - OpenClaw responde pelo ControlUI
 
