@@ -52,5 +52,4 @@
 - ocs gateway.trustedProxies '["127.0.0.1"]' --strict-json
 - ocs hooks '{"token":"${OPENCLAW_HOOKS_TOKEN}"}' --strict-json
 
-- Raw mode disabled
 - git backup
