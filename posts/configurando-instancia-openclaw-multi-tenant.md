@@ -28,12 +28,6 @@
       - O core do OpenClaw deve ser capaz de invocar uma tool/plugin get-customer no hook on mounted session
       - O core do OpenClaw deve ser capaz de injetar com prompt inicial da sessão, o current customer ou uma informação de primeiro contato
 
-### Required
-
-- A porta 18789?
-- Como configurar ControlUI use?
-- Como funciona o gateway?
-
 ### Bash Aliases
 
 - oc: openclaw
