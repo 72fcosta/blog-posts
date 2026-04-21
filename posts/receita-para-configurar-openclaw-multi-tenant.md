@@ -74,12 +74,7 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 - npm install -g openclaw@latest
 - oc onboard --install-daemon
 - oc update
- <!-- - oc gateway -->
-- ocs gateway.controlUi.allowInsecureAuth false
-- ocs gateway.controlUi.allowedOrigins '["https://openclaw.XXX"]' --strict-json
-- ocs gateway.trustedProxies '["127.0.0.1"]' --strict-json
-- ocs hooks '{"token":"${OPENCLAW_HOOKS_TOKEN}"}' --strict-json
+- restaurar openclaw.json
 
-- Caddy
-
-#cookbook
+- envs
+- instalar e configurar Caddy
