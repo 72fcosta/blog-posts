@@ -74,8 +74,11 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 - npm install -g openclaw@latest
 - oc onboard --install-daemon
 - oc update
-- restaurar openclaw.json
+
+- config
+   - restaurar openclaw.json
 
 - envs
 - instalar e configurar Caddy
 - plugins flow
+- main telegram
