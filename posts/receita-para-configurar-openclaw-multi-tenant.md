@@ -77,6 +77,8 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 - oc update
 
 - config (restaurar openclaw.json from local file)
+- config main telegram
+
 - env (.env)
 
 ```bash
@@ -94,4 +96,3 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 - instalar e configurar Caddy
 
 - plugins flow
-- main telegram
