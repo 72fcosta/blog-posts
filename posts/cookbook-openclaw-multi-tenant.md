@@ -1,12 +1,12 @@
-[2026-04-17]
+[2026-04-21]
 
-# Preparando VPS para OpenClaw
+# OpenClaw Multi Tenant
 
 ### Required
 
-- Ubuntu LTS Latest
+- VPS com Ubuntu
 
-### Steps
+### VPS
 
 - apt update
 - apt upgrade -y
