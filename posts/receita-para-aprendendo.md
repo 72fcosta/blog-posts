@@ -13,3 +13,5 @@
 ### Durante
 
 - Verifique pode ser mais fácil, pensar no fluxo ao contrário
+
+#cookbook

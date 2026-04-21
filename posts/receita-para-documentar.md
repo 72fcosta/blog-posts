@@ -9,3 +9,5 @@
 ### Preparo
 
 - Descreva o que não sabe sobre o objeto
+
+#cookbook

@@ -27,3 +27,5 @@
 
 - Razão da execução da primary task
 - Reset o workspace (browser, editor, commit, etc)
+
+#cookbook
