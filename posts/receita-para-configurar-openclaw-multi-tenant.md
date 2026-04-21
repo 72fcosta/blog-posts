@@ -93,6 +93,8 @@ export PATH="$HOME/.local/tmuxai:$PATH"
    - ogr
    - ogs
 
+_Listening: 127.0.0.1:18789_
+
 - instalar https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
 - estrutura de pastas dos agentes
