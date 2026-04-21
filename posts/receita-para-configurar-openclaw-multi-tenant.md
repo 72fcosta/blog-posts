@@ -93,6 +93,8 @@ export PATH="$HOME/.local/tmuxai:$PATH"
    - ogr
    - ogs
 
+- instalar e configurar Caddy
+
 - estrutura de pastas dos agentes
    - main
    - debug
@@ -100,5 +102,6 @@ export PATH="$HOME/.local/tmuxai:$PATH"
       - tenant_id_01
       - tenant_id_02
 
-- instalar e configurar Caddy
+- sandbox
+
 - plugins flow
