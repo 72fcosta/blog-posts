@@ -72,9 +72,9 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 ### Preparo OpenClaw
 
 - npm install -g openclaw@latest
-- openclaw onboard --install-daemon
+- oc onboard --install-daemon
 - oc update
-- oc gateway
+ <!-- - oc gateway -->
 - ocs gateway.controlUi.allowInsecureAuth false
 - ocs gateway.controlUi.allowedOrigins '["https://openclaw.XXX"]' --strict-json
 - ocs gateway.trustedProxies '["127.0.0.1"]' --strict-json
