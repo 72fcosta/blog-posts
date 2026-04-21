@@ -78,3 +78,4 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 
 - envs
 - instalar e configurar Caddy
+- plugins flow
