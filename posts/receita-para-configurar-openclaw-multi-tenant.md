@@ -93,7 +93,7 @@ export PATH="$HOME/.local/tmuxai:$PATH"
    - ogr
    - ogs
 
-- instalar e configurar Caddy
+- instalar https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
 - estrutura de pastas dos agentes
    - main
