@@ -77,15 +77,18 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 - oc update
 
 - config (restaurar openclaw.json from local file)
-- ogr
-- ogs
+- env (.env)
 
-- envs
+```bash
   OPENCLAW_WEBHOOK_SECRET=TuHEXWFPKwwHYeDmHWPwwlfyGRcW7gdxiHvldqZJz0mxO7LjyVmpxx
   TELEGRAM_BOT_TOKEN=8367754015:AAGSy6Lq38Z0uA4ddybS4fo8RG5OpRF1W3w
   OPENCLAW_GATEWAY_TOKEN=6b2798a674efb9fcadda0d9915b0884acd907b2c19861666
   OPENCLAW_NO_RESPAWN=1
   NODE_COMPILE_CACHE=/.local/var/tmp/openclaw-compile-cache
+```
+
+- ogr
+- ogs
 
 - instalar e configurar Caddy
 - plugins flow
