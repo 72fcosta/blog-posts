@@ -1,6 +1,6 @@
 [2026-04-21]
 
-# OpenClaw Multi Tenant
+# Receita para configurar OpenClaw (multi tenant)
 
 ### Objetivo
 
