@@ -26,13 +26,6 @@
       - O core do OpenClaw deve ser capaz de invocar uma tool/plugin get-customer no hook on mounted session
       - O core do OpenClaw deve ser capaz de injetar com prompt inicial da sessão, o current customer ou uma informação de primeiro contato
 
-### Bash Aliases
-
-- oc: openclaw
-- ogs: openclaw gateway status
-- ogr: openclaw gateway restart
-- ocs: openclaw config set
-
 ### Steps
 
 - su - openclaw <!-- use openclaw user -->
@@ -44,16 +37,36 @@
 - ocs gateway.trustedProxies '["127.0.0.1"]' --strict-json
 - ocs hooks '{"token":"${OPENCLAW_HOOKS_TOKEN}"}' --strict-json
 
-### Required
+### Ingredientes
 
 - VPS com Ubuntu
+- API Key OpenRouter
+- Aliases
+   ```
+   alias cd..='cd ..'
+   alias oc='openclaw'
+   alias ogs='openclaw gateway status'
+   alias ogr='openclaw gateway restart'
+   alias ocs='openclaw config set'
+   alias ocg='openclaw config get'
+   ```
 
-### VPS
+### Preparo do user root
 
 - apt update
 - apt upgrade -y
 - apt install git
 - apt install curl
+- adduser openclaw
+
+### Preparo do user openclaw
+
+- criar pasta .bash_aliases
+- adicionar aliases na pasta .bash_aliases
+- criar pasta .local
+- instalar .nvm na pasta .local
+- instalar node com nvm (ex: nvm install 24)
+- instalar https://tmuxai.dev na pasta .local
 
 ### Caddy
 

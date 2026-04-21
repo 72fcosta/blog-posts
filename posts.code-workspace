@@ -109,6 +109,6 @@
 
       "togglequotes.chars": ["\"", "'", "`"],
       "cSpell.language": "en,pt,pt_BR",
-      "cSpell.words": ["esbenp", "Meslo", "Openclaw", "togglequotes"],
+      "cSpell.words": ["adduser", "esbenp", "Meslo", "Openclaw", "togglequotes"],
    },
 }
