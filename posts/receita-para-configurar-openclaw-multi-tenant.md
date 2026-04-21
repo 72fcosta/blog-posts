@@ -94,5 +94,4 @@ export PATH="$HOME/.local/tmuxai:$PATH"
    - ogs
 
 - instalar e configurar Caddy
-
 - plugins flow
