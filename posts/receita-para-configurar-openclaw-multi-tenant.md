@@ -87,9 +87,11 @@ export PATH="$HOME/.local/tmuxai:$PATH"
   NODE_COMPILE_CACHE=/.local/var/tmp/openclaw-compile-cache
 ```
 
-- ogr
-- ogs
+- gateway
+   - ogr
+   - ogs
 
 - instalar e configurar Caddy
+
 - plugins flow
 - main telegram
