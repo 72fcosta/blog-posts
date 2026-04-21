@@ -97,6 +97,8 @@ _Listening: 127.0.0.1:18789_
 
 - instalar https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
+- git backup
+
 - estrutura de pastas dos agentes
    - main
    - debug
