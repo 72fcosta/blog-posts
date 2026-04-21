@@ -53,14 +53,21 @@
 - criar pasta .bash_aliases
 - adicionar aliases na pasta .bash_aliases
 - criar pasta .local
-- curl https://get.volta.sh | bash
-  _volta instala node com binário estático, evitando o warn do 'openclaw gateway status'_
-  _'Service config issue: Gateway service uses Node from a version manager; it can break after upgrades.'_
-- volta install node@24
-- instalar https://tmuxai.dev na pasta .local
+- instalar node
+   - curl -fsSL https://nodejs.org/dist/v24.15.0/node-v24.15.0-linux-x64.tar.xz -o node.tar.xz
+   - tar -xf node.tar.xz
+   - mv node-v24.15.0-linux-x64 ~/.local/node
+   - rm node.tar.xz
+
    ```bash
-   export PATH=$PATH:"$HOME/.local/tmuxai"
+   export PATH="$HOME/.local/node/bin:$PATH"
    ```
+
+- instalar https://tmuxai.dev na pasta .local
+
+```bash
+export PATH="$HOME/.local/tmuxai:$PATH"
+```
 
 ### Preparo OpenClaw
 
