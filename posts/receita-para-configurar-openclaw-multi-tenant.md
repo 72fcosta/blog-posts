@@ -54,8 +54,16 @@
 - adicionar aliases na pasta .bash_aliases
 - criar pasta .local
 - instalar .nvm na pasta .local
+   ```bash
+   export NVM_DIR="$HOME/.local/.nvm/nvm-0.40.4"
+   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+   ```
 - instalar node com nvm (ex: nvm install 24)
 - instalar https://tmuxai.dev na pasta .local
+   ```bash
+   export PATH=$PATH:"$HOME/.local/tmuxai"
+   ```
 
 ### Preparo OpenClaw
 
