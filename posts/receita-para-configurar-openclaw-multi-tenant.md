@@ -53,6 +53,9 @@
 - criar pasta .bash_aliases
 - adicionar aliases na pasta .bash_aliases
 - criar pasta .local
+  volta instala node com binário estático, evitando o warn do 'openclaw gateway status'
+   - _'Service config issue: Gateway service uses Node from a version manager; it can break after upgrades.'_
+- curl https://get.volta.sh | bash
 - instalar node com nvm (ex: nvm install 24)
 - instalar https://tmuxai.dev na pasta .local
    ```bash
