@@ -33,6 +33,7 @@
 - Aliases
    ```bash
    alias cd..='cd ..'
+   alias ls='ls -la'
    alias oc='openclaw'
    alias ogs='openclaw gateway status'
    alias ogr='openclaw gateway restart'
@@ -80,13 +81,11 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 - ogs
 
 - envs
-  │ - NODE_COMPILE_CACHE is not set; repeated CLI runs can be slower on small hosts (Pi/VM). │
-  │ - OPENCLAW_NO_RESPAWN is not set to 1; set it to avoid extra startup overhead from │
-  │ self-respawn. │
-  │ - Suggested env for low-power hosts: │
-  │ export NODE_COMPILE_CACHE=/var/tmp/openclaw-compile-cache │
-  │ mkdir -p /var/tmp/openclaw-compile-cache │
-  │ export OPENCLAW_NO_RESPAWN=1
+  OPENCLAW_WEBHOOK_SECRET=TuHEXWFPKwwHYeDmHWPwwlfyGRcW7gdxiHvldqZJz0mxO7LjyVmpxx
+  TELEGRAM_BOT_TOKEN=8367754015:AAGSy6Lq38Z0uA4ddybS4fo8RG5OpRF1W3w
+  OPENCLAW_GATEWAY_TOKEN=6b2798a674efb9fcadda0d9915b0884acd907b2c19861666
+  OPENCLAW_NO_RESPAWN=1
+  NODE_COMPILE_CACHE=/.local/var/tmp/openclaw-compile-cache
 
 - instalar e configurar Caddy
 - plugins flow
