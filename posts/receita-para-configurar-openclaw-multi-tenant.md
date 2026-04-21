@@ -42,7 +42,7 @@
 - VPS com Ubuntu
 - API Key OpenRouter
 - Aliases
-   ```
+   ```bash
    alias cd..='cd ..'
    alias oc='openclaw'
    alias ogs='openclaw gateway status'
