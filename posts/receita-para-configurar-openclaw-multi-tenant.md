@@ -79,15 +79,15 @@ export PATH="$HOME/.local/tmuxai:$PATH"
 - ogr
 - ogs
 
-   │ - NODE_COMPILE_CACHE is not set; repeated CLI runs can be slower on small hosts (Pi/VM). │
-   │ - OPENCLAW_NO_RESPAWN is not set to 1; set it to avoid extra startup overhead from │
-   │ self-respawn. │
-   │ - Suggested env for low-power hosts: │
-   │ export NODE_COMPILE_CACHE=/var/tmp/openclaw-compile-cache │
-   │ mkdir -p /var/tmp/openclaw-compile-cache │
-   │ export OPENCLAW_NO_RESPAWN=1
-
 - envs
+  │ - NODE_COMPILE_CACHE is not set; repeated CLI runs can be slower on small hosts (Pi/VM). │
+  │ - OPENCLAW_NO_RESPAWN is not set to 1; set it to avoid extra startup overhead from │
+  │ self-respawn. │
+  │ - Suggested env for low-power hosts: │
+  │ export NODE_COMPILE_CACHE=/var/tmp/openclaw-compile-cache │
+  │ mkdir -p /var/tmp/openclaw-compile-cache │
+  │ export OPENCLAW_NO_RESPAWN=1
+
 - instalar e configurar Caddy
 - plugins flow
 - main telegram
