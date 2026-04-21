@@ -97,14 +97,14 @@ _Listening: 127.0.0.1:18789_
 
 - instalar https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
-- git backup
-
 - estrutura de pastas dos agentes
    - main
    - debug
    - tenants
       - tenant_id_01
       - tenant_id_02
+
+- git backup
 
 - plugins flow
 - sandbox
