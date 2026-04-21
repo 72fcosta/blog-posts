@@ -48,7 +48,7 @@
 - apt install curl
 - adduser openclaw
 
-### Preparo do user openclaw
+### Preparo do user 'openclaw'
 
 - criar pasta .bash_aliases
 - adicionar aliases na pasta .bash_aliases
@@ -57,6 +57,10 @@
 - instalar node com nvm (ex: nvm install 24)
 - instalar https://tmuxai.dev na pasta .local
 
+### Preparo OpenClaw
+
+- npm install -g openclaw@latest
+- openclaw onboard --install-daemon
 - oc update
 - oc gateway
 - ocs gateway.controlUi.allowInsecureAuth false
