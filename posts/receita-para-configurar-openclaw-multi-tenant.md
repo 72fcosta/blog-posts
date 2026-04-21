@@ -40,10 +40,6 @@
    alias ocg='openclaw config get'
    ```
 
-### Preparo da VPS
-
-- Caddy
-
 ### Preparo do user root
 
 - apt update
@@ -67,5 +63,7 @@
 - ocs gateway.controlUi.allowedOrigins '["https://openclaw.XXX"]' --strict-json
 - ocs gateway.trustedProxies '["127.0.0.1"]' --strict-json
 - ocs hooks '{"token":"${OPENCLAW_HOOKS_TOKEN}"}' --strict-json
+
+- Caddy
 
 #cookbook
