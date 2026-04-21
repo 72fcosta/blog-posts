@@ -102,6 +102,5 @@ export PATH="$HOME/.local/tmuxai:$PATH"
       - tenant_id_01
       - tenant_id_02
 
-- sandbox
-
 - plugins flow
+- sandbox
