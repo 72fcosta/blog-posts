@@ -98,6 +98,7 @@ _Listening: 127.0.0.1:18789_
 - instalar https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 
 - plugins flow
+   -
 
 - estrutura de pastas dos agentes
    - main
@@ -107,5 +108,7 @@ _Listening: 127.0.0.1:18789_
       - tenant_id_02
 
 - git backup (1 vez push changes commit de .openclaw/agents)
+
+- bloquear slash cmds from tenant
 
 - sandbox?
